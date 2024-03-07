@@ -1,0 +1,34 @@
+{
+  "name": "ejemploapiarduino",
+  "version": "1.0.0",
+  "description": "this is a example of connection api with node and arduino(esp82) to receive request http",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraytoGBDX/apiArduino.git"
+  },
+  "keywords": [
+    "API",
+    "ARDUINO",
+    "ESP",
+    "82"
+  ],
+  "author": "Brayan Roberto Garcia Bernabe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BraytoGBDX/apiArduino/issues"
+  },
+  "homepage": "https://github.com/BraytoGBDX/apiArduino#readme",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "morgan": "^1.10.0"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongodb": "^6.4.0"
+  }
+}
