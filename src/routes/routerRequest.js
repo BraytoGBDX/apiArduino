@@ -1,8 +1,9 @@
 import { Router } from "express";
+import { index } from '../controller/requestController.js'
 
 const router=Router()
 
-router.get('/',(req,res)=>{console.log('inicio')})
+router.get('/index',index)
 
 
 
