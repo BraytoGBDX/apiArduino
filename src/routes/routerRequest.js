@@ -1,9 +1,11 @@
 import { Router } from "express";
-import { index } from '../controller/requestController.js'
+import { controlArduino, index, openDoor } from '../controller/requestController.js'
 
 const router=Router()
 
 router.get('/index',index)
+router.get('/openDoor', openDoor)
+router.get('/controlArduino',controlArduino)
 
 
 
