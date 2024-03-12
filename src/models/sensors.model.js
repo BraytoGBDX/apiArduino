@@ -10,11 +10,11 @@ const sensorSchema = new Schema({
     status : String,
     initialDate : {
         type: Date,
-        default: Date.now
+        default: Date.now,
+        require:false
     },
     owner : String,
-    startsAt : Date,
-    endsAt : Date,
+   
     readings : []
 })  
 
